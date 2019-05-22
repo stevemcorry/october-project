@@ -1,0 +1,7 @@
+1.0.1: 
+    - First version of Test
+    - create_people_table.php
+1.0.2: 
+    - Second version of Test
+    - Seed people table
+    - seed.php

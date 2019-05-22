@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Person
+
+# Model Form Field configuration
+form: $/stephen/test/models/person/fields.yaml
+
+# Model Class name
+modelClass: Stephen\Test\Models\Person
+
+# Default redirect location
+defaultRedirect: stephen/test/person
+
+# Create page
+create:
+    title: Create Person
+    redirect: stephen/test/person/update/:id
+    redirectClose: stephen/test/person
+
+# Update page
+update:
+    title: Edit Person
+    redirect: stephen/test/person
+    redirectClose: stephen/test/person
+
+# Preview page
+preview:
+    title: Preview Person

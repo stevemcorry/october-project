@@ -1,0 +1,25 @@
+title = "Test"
+url = "/test"
+layout = "default"
+
+[person TestPeople]
+
+==
+
+function onStart()
+{
+    $this->page->welcome = 'Whats up dude?';
+}
+
+==
+
+
+<h1>TEST WORKS</h1>
+
+<div>
+    {% component 'TestPeople' %}
+</div>
+
+<div>
+    ok its not working. Why?
+</div>

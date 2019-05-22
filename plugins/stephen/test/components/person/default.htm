@@ -1,0 +1,11 @@
+<h1>Welcome Ladies</h1>
+
+
+{% for lady in ladies %}
+
+<h3>{{lady.first_name}} {{lady.last_name}}</h3>
+<p><strong>Work:</strong> {{lady.occupation}}</p>
+<p><strong>Age:</strong> {{lady.age}}</p>
+<br>
+
+{% endfor %}

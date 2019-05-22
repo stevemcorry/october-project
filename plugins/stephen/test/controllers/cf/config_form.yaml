@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: C F
+
+# Model Form Field configuration
+form: $/stephen/test/models/cf/fields.yaml
+
+# Model Class name
+modelClass: Stephen\Test\Models\CF
+
+# Default redirect location
+defaultRedirect: stephen/test/cf
+
+# Create page
+create:
+    title: Create C F
+    redirect: stephen/test/cf/update/:id
+    redirectClose: stephen/test/cf
+
+# Update page
+update:
+    title: Edit C F
+    redirect: stephen/test/cf
+    redirectClose: stephen/test/cf
+
+# Preview page
+preview:
+    title: Preview C F
